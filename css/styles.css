@@ -1,0 +1,132 @@
+:root {
+  --white: #fff;
+  --black: #0000001a;
+  --bossanova: #4b2354;
+  --shark: #212529;
+  --gray: #999999;
+  --orchid: #bd59d480;
+  --blue: #00a8ff80;
+  --violet: #b900ff80;
+  --lavender: #BD59D4;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Source Sans Pro, Times New Roman, Arial;
+}
+
+section {
+  background: url('../img/backgroung.jpg') center center/cover no-repeat;
+  height: 100vh;
+}
+
+.login {
+  background: -webkit-linear-gradient(left,var(--blue),var(--violet));
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.login-container {
+  width: 390px;
+  height: 699px;
+  margin: 15px 0;
+  padding: 80px 55px 30px 55px;
+  background-color: var(--white);
+  border-radius: 10px;
+}
+
+.login-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: var(--bossanova);
+  text-align: center;
+  margin-bottom: 17px;
+}
+
+input {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--bossanova);
+  width: 100%;
+  height: 62px;
+  padding: 0 20px 0 23px;
+  border: none;
+  border-radius:20px;
+  box-shadow: 0 5px 30px 0 var(--black);
+  outline: none;
+}
+
+.login-button {
+  display: block;
+  margin: 25px auto;
+  min-width: 160px;
+  height: 50px;
+  background-color: var(--lavender);
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--white);
+  border: none;
+  transition: all .4s;
+  box-shadow: 0 10px 30px 0 var(--orchid);
+}
+
+.login-button:hover {
+  cursor: pointer;
+  background-color: var(--bossanova);
+  box-shadow: 0 10px 30px 0 var(--lavender);
+}
+
+.login-info {
+  margin-top: 57px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--gray);
+}
+
+.login-icons {
+  margin-top: 23px;
+  display: flex;
+  justify-content: center;
+  transition: all .4s;
+}
+
+.login-icons img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 5px;
+  padding: 11px;
+  background-color: var(--white);
+  box-shadow: 0 5px 20px 0 var(--black);
+}
+
+.login-descr {
+  margin-top: 109px;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--shark);
+  text-align: center;
+}
+
+.login-descr a {
+  text-decoration: none;
+}
+
+.login-descr a:link {
+  color: var(--shark);
+}
+
+.login-descr a:hover {
+  text-decoration: underline;
+}
+
